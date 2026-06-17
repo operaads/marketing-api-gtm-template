@@ -1,0 +1,16 @@
+homepage: "https://github.com/operaads/marketing-api-gtm-template"
+documentation: "https://github.com/operaads/marketing-api-gtm-template"
+versions:
+   - sha: TBD
+     changeNotes: |
+      Version 0.1.0
+      Initial release.
+      - Server-side template for Opera Ads Marketing API.
+      - Accepts GA4-style incoming events and forwards a flat JSON
+        payload to https://px.oa.opera.com/s.
+      - Auto-resolves clickId from URL (opera_click_id / opcid),
+        same-domain referrer, or opcid cookie.
+      - Reads advertiserUserId from the OAU first-party cookie.
+      - Auto-aggregates product / order / custom properties into the
+        eventData JSON string.
+      - Auto-generates eventId when not provided.
