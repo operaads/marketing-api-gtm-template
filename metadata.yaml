@@ -1,7 +1,7 @@
 homepage: "https://github.com/operaads/marketing-api-gtm-template"
 documentation: "https://github.com/operaads/marketing-api-gtm-template"
 versions:
-   - sha: TBD
+   - sha: b8d6224a04d196906fd32b9cdfb826db5059bd9b
      changeNotes: |
       Version 0.1.0
       Initial release.
